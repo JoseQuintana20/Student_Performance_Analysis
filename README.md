@@ -70,7 +70,7 @@ Contributions are welcome! If you'd like to collaborate, please submit a pull re
 
 ## 📋 License
 
-[Specify License Here]
+This project is distributed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
 
