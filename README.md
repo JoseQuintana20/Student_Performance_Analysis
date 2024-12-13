@@ -1,92 +1,107 @@
-# Análisis de Factores Socioeconómicos en el desempeño estudiantil de las Pruebas SABER 11° (2022-II) en la Región Caribe Colombiana
+
+# Análisis de Factores Socioeconómicos en el Desempeño Estudiantil de las Pruebas SABER 11° (2022-II) en la Región Caribe Colombiana
 
 ![Project Status](https://img.shields.io/badge/Status-Completed-green)
 ![Data Source](https://img.shields.io/badge/Data-Colombia%20Open%20Data-blue)
 ![Tech Stack](https://img.shields.io/badge/Tech-Python%20|%20Pandas%20|%20Seaborn-lightgrey)
 
-## 📊 Data Science Project Overview
+## 📊 Proyecto de Ciencia de Datos: Descripción General
 
-This project analyzes the influence of socioeconomic factors on student performance in the SABER 11° (2022-II) standardized tests in Colombia's Caribbean Region. By utilizing data from **Datos Abiertos Colombia**, it aims to uncover patterns and insights that can contribute to improving educational policies and student outcomes.
-
----
-
-## 🔍 Objectives
-
-- Identify key socioeconomic factors that correlate with student performance.
-- Perform exploratory data analysis (EDA) to uncover regional patterns.
-- Use data visualization to present key findings.
-- Provide actionable insights to stakeholders in the education sector.
+Este proyecto aborda el análisis de los factores socioeconómicos que influyen en el desempeño estudiantil en las pruebas SABER 11° correspondientes al periodo 2022-II en la región Caribe colombiana. Utilizando datos abiertos proporcionados por **Datos Abiertos Colombia**, se aplicaron técnicas avanzadas de análisis de datos para identificar patrones, evaluar disparidades y generar recomendaciones que puedan mejorar las políticas educativas y la equidad en el acceso a la educación de calidad.
 
 ---
 
-## 📂 Repository Structure
+## 🔍 Objetivos del Proyecto
 
-- `/notebooks`: Jupyter notebooks used for analysis.
-  - `FinalProject.ipynb`: The main analysis notebook.
-- `/data`: Contains processed and example data files.
-  - `SABER11_sample.csv`: A sample dataset.
-- `/visualizations`: Graphs and figures generated from the analysis.
-- `/docs`: Additional documentation.
+### Objetivo General:
+- Comprender cómo los factores socioeconómicos influyen en el desempeño académico en la región Caribe colombiana, y proponer soluciones basadas en evidencia para cerrar brechas educativas.
 
----
-
-## 📄 Data Source
-
-- **Dataset Name**: SABER11.csv  
-- **Provider**: [Datos Abiertos Colombia](https://www.datos.gov.co/)  
-- **Description**: Results of the SABER 11° standardized tests for 2022-II. Includes detailed student performance data and socioeconomic information.
+### Objetivos Específicos:
+1. **Identificar correlaciones clave**: Determinar cuáles factores socioeconómicos están más estrechamente relacionados con el rendimiento en áreas como matemáticas, lenguaje y ciencias.
+2. **Realizar Análisis Exploratorio de Datos (EDA)**: Examinar distribuciones y tendencias a nivel regional para resaltar disparidades entre zonas rurales y urbanas.
+3. **Visualizar hallazgos clave**: Desarrollar gráficos y mapas que expliquen las conclusiones de manera clara y accesible.
+4. **Generar recomendaciones prácticas**: Proponer estrategias para mejorar el acceso a recursos educativos y reducir desigualdades.
 
 ---
 
-## 🛠 Tools and Technologies
+## 📂 Estructura del Repositorio
 
-- **Language**: Python
-- **Libraries**: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
-- **Environment**: Google Colab
-
----
-
-## 🔬 Key Findings
-
-- **Finding 1**: Socioeconomic status shows a significant correlation with test performance, particularly in mathematics and reading comprehension.
-- **Finding 2**: Rural vs. urban disparities are evident in scores, with urban students performing consistently better.
-- **Finding 3**: Parental education level and access to resources (e.g., internet) were strong predictors of higher scores.
+- `/notebooks`: Notebooks Jupyter usados para análisis.
+  - `FinalProject.ipynb`: Análisis completo del proyecto.
+- `/data`: Archivos procesados y de muestra.
+  - `SABER11_sample.csv`: Subconjunto de datos representativo para pruebas y exploración.
+- `/visualizations`: Visualizaciones y gráficos generados durante el análisis.
+- `/docs`: Documentación adicional y referencias.
 
 ---
 
-## 🚀 Future Work
+## 📄 Fuente de los Datos
 
-- Expand analysis to include more regions of Colombia.
-- Implement predictive modeling to forecast student outcomes.
-- Explore the impact of additional variables like school funding and teacher-student ratios.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! If you'd like to collaborate, please submit a pull request with your proposed changes.
+- **Nombre del Dataset**: SABER11.csv  
+- **Proveedor**: [Datos Abiertos Colombia](https://www.datos.gov.co/)  
+- **Descripción**: Información detallada sobre los resultados de las pruebas SABER 11° 2022-II, incluyendo datos sobre desempeño académico y factores socioeconómicos como ubicación geográfica, nivel educativo de los padres y acceso a internet.
 
 ---
 
-## 📋 License
+## 🛠 Herramientas y Tecnologías Utilizadas
 
-This project is distributed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
----
-
-## 🏆 Credits
-
-- **Author**: Jose Daniel Quintana Fuentes  
-- **Institution**: Universidad Tecnológica de Pereira  
-- **Program**: Data Science and Analytics  
+- **Lenguaje**: Python
+- **Bibliotecas Principales**:
+  - Pandas: Procesamiento y análisis de datos.
+  - NumPy: Cálculos matemáticos avanzados.
+  - Matplotlib y Seaborn: Generación de gráficos y visualizaciones.
+  - Scikit-learn: Modelado y aprendizaje supervisado (si se aplica).
+- **Entorno de Desarrollo**: Google Colab
 
 ---
 
-## 📞 Contact
+## 🔬 Hallazgos Principales
 
-For inquiries or collaboration opportunities:
-- **Email**: jose.quintana@utp.edu.co
+1. **Impacto del Nivel Socioeconómico**: Existe una correlación significativa entre el estrato socioeconómico y los puntajes en matemáticas y lectura crítica.
+2. **Brechas Rurales-Urbanas**: Los estudiantes de zonas urbanas obtuvieron mejores resultados en promedio, destacando desigualdades en el acceso a recursos educativos.
+3. **Nivel Educativo de los Padres**: Los estudiantes cuyos padres alcanzaron niveles educativos superiores tienden a rendir mejor, especialmente en áreas críticas como matemáticas.
+4. **Acceso a Internet**: El acceso a internet en el hogar muestra un impacto positivo directo en los resultados, especialmente en zonas con mejores infraestructuras.
 
 ---
 
-*This project demonstrates the potential of data science in driving educational equity and policy innovation in Colombia.*
+## 🚀 Trabajos Futuros
+
+1. **Ampliación del Análisis**:
+   - Incluir otras regiones de Colombia para realizar comparaciones interregionales.
+2. **Modelado Predictivo**:
+   - Desarrollar modelos que pronostiquen el desempeño de estudiantes basados en factores socioeconómicos.
+3. **Estudio de Variables Adicionales**:
+   - Analizar cómo la financiación escolar, la proporción de estudiantes por docente y las infraestructuras escolares impactan los resultados.
+4. **Divulgación de Hallazgos**:
+   - Crear una plataforma interactiva para compartir visualizaciones y conclusiones con el público y responsables políticos.
+
+---
+
+## 📋 Contribuciones
+
+¡Contribuciones son bienvenidas! Si deseas colaborar, por favor sigue las pautas de contribución y envía un pull request con tus propuestas.
+
+---
+
+## 📋 Licencia
+
+Este proyecto está distribuido bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+
+---
+
+## 🏆 Créditos
+
+- **Autor**: Jose Daniel Quintana Fuentes  
+- **Institución**: Universidad Tecnológica de Pereira  
+- **Programa**: Electrical Engineering Master’s Degree 
+
+---
+
+## 📞 Contacto
+
+Si tienes preguntas o deseas colaborar en futuros proyectos, no dudes en ponerte en contacto:
+- **Correo electrónico**: jose.quintana@utp.edu.co
+
+---
+
+*Este proyecto destaca cómo la ciencia de datos puede ser una herramienta poderosa para cerrar brechas en la educación y guiar políticas públicas basadas en evidencia.*
