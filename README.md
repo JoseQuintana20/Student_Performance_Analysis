@@ -26,11 +26,9 @@ Este proyecto aborda el análisis de los factores socioeconómicos que influyen 
 
 ## 📂 Estructura del Repositorio
 
-- `/notebooks`: Notebooks Jupyter usados para análisis.
-  - `FinalProject.ipynb`: Análisis completo del proyecto.
+- `FinalProject.ipynb`: Análisis completo del proyecto (Notebooks Jupyter usados para análisis).
 - `/data`: Archivos procesados y de muestra.
   - `SABER11_sample.csv`: Subconjunto de datos representativo para pruebas y exploración.
-- `/visualizations`: Visualizaciones y gráficos generados durante el análisis.
 - `/docs`: Documentación adicional y referencias.
 
 ---
@@ -38,7 +36,7 @@ Este proyecto aborda el análisis de los factores socioeconómicos que influyen 
 ## 📄 Fuente de los Datos
 
 - **Nombre del Dataset**: SABER11.csv  
-- **Proveedor**: [Datos Abiertos Colombia](https://www.datos.gov.co/)  
+- **Proveedor**: **[DataIcfes](https://www.icfes.gov.co/)**  
 - **Descripción**: Información detallada sobre los resultados de las pruebas SABER 11° 2022-II, incluyendo datos sobre desempeño académico y factores socioeconómicos como ubicación geográfica, nivel educativo de los padres y acceso a internet.
 
 ---
